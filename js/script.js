@@ -33,10 +33,11 @@
 
 	// Jquery
 	
-	$('#accordion-jquery h3').click(function(event){
+    $('#accordion-jquery h3').click(function(event){
         $(this).siblings('h3').removeClass('active');
         $(this).addClass('active');   
     });
-		
+    
 })(); 
+
 
